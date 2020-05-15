@@ -12,8 +12,8 @@ export default createGlobalStyle`
     color: #000;
     -webkit-font-smoothing: antialiased;
   }
-  border-style, input, button {
-    font-family: 'Roboto Slab', sans-serif;
+  body, border-style, input, button {
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6, strong {

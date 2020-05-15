@@ -1,10 +1,11 @@
 import React from 'react';
 
+import Main from './pages/Main';
 import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
   <>
-    <h1>Twitter Careers</h1>
+    <Main />
     <GlobalStyle />
   </>
 );
