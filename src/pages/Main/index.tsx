@@ -2,7 +2,9 @@ import React from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { FaTwitter } from 'react-icons/fa';
 
-import { Container, Header } from './styles';
+import videoMain from '../../assets/video_main_page.mp4';
+
+import { Container, Header, Video } from './styles';
 
 const SignIn: React.FC = () => {
   return (
@@ -23,6 +25,8 @@ const SignIn: React.FC = () => {
           </button>
         </nav>
       </Header>
+
+      <Video autoPlay loop muted src={videoMain} />
     </Container>
   );
 };

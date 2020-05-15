@@ -41,7 +41,12 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "jsx-a11y/media-has-caption": [ 2, {
+      "audio": [ "Audio" ],
+      "video": [ "Video" ],
+      "track": [ "Track" ]
+    }]
   },
   "settings": {
     "import/resolver": {
