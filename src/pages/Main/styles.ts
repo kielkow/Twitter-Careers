@@ -83,3 +83,75 @@ export const Header = styled.div`
 export const Video = styled.video`
   width: 100%;
 `;
+
+export const Search = styled.div`
+  height: 150px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    width: 250px;
+
+    border: 0;
+    border-radius: 50px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 10px;
+
+    color: #6c5d6c;
+    background-color: #e8eff3;
+    line-height: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 0 2px 2px rgba(29, 155, 240, 0.7);
+  }
+
+  select {
+    width: 250px;
+
+    border: 0;
+    border-radius: 50px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 10px;
+
+    color: #6c5d6c;
+    background-color: #e8eff3;
+    line-height: 17px;
+    font-size: 16px;
+    font-weight: 400;
+
+    transition: box-shadow 0.2s, color 0.2s;
+    &:focus {
+      box-shadow: 0 0 2px 2px rgba(29, 155, 240, 0.7);
+    }
+  }
+
+  button {
+    border-radius: 50px;
+    border: 0;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 10px 18px 10px 18px;
+
+    color: #fff;
+    background-color: #1da1f2;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+
+    transition: background-color 0.2s;
+    &:hover {
+      background: ${shade(0.25, '#1da1f2')};
+    }
+  }
+`;

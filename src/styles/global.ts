@@ -12,7 +12,7 @@ export default createGlobalStyle`
     color: #000;
     -webkit-font-smoothing: antialiased;
   }
-  body, border-style, input, button {
+  body, border-style, input, button, select {
     font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 16px;
   }
